@@ -64,3 +64,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "byebug", "~> 13.0", groups: [:development, :test]
